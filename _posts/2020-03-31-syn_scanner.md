@@ -1,7 +1,7 @@
 ---
 title: "Python Project: SYN Scanner"
 date: 2020-03-31
-tags: [python, computer science, cyber security, scanner]
+tags: [Cyber Security]
 excerpt: "Python, SYN Scanner, Cyber Security"
 ---
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 	# Stop the console from listing packets
 	conf.verb = 0
-	
+
 	# Get and store the start time of the scan
 	start_time = time.time()
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 		# Print the target ip
 		print("Host " + ip + " is up. Starting scan:")
-		
+
 		# For each port in between the range (1 - 1024), create a SYN packet and send it
 		for port in ports:
 			packet = IP(dst=ip)/TCP(dport=port, flags='S')
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 		print("OPEN PORTS:")		
 		for p in open_ports:
 			print(p)		
-		
+
 		# Calculate the total scan time and print it along with the target IP
 		duration = time.time() - start_time
 		print("Scan of " + str(ip) + " completed in " + str(duration) + " seconds.")
