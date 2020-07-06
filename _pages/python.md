@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /python/
-title: "Python Project Posts by Tags"
+title: "Python Projects by Tags"
 author_profile: true
 ---
 
