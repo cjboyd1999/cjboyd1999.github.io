@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Cameron Boyd"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.png"
   bio              : "Cyber Security and Programming Portfolio"
   location         : "Melbourne, Australia"
   email            :
