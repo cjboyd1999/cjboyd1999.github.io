@@ -2,5 +2,5 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Test Script"
-    url: /test-script/
+  - title: "Python Projects"
+    url: /python/
