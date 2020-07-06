@@ -1,10 +1,11 @@
 ---
-title: "Who I Am"
+title: "About Me"
 permalink: /about/
 ---
 
-## This section will cover what defines me as an individual.
+## My Studies
+I am a student at Deakin University undertaking a Bachelor of Cyber Security. I am on track to complete my studies in Q4 2020 and graduate in Q1 2021. During my studies, I have primarily been interested in the penetration testing area of cyber security. However, I am now becoming more and more interested within the cyber security engineering field as I enjoy the challenges offerred by programming.
 
-## This section will cover what exactly I do regarding my work.
+During my studies so far, I have been fortunate enough to undertake the Certified Ethical Hacker exam, to which I was very pleased to pass.
 
-## This final section will cover what I enjoy doing in my free time.
+## My Free Time
