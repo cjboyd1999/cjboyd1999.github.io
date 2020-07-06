@@ -8,6 +8,6 @@ I am a student at Deakin University undertaking a Bachelor of Cyber Security. I 
 
 During my studies so far, I have been fortunate enough to undertake the Certified Ethical Hacker exam, to which I was very pleased to pass. I am holding a Certified Ethical Hacker v10 certificate which is valid until 2023.
 
-<img src="{{ site.url }}{{ site.baseurl }}/image/ceh-logo.jpg" alt="Certified Ethical Hacker Logo">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ceh-logo.jpg" alt="Certified Ethical Hacker Logo">
 
 ## My Free Time
