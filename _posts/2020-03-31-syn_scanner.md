@@ -9,7 +9,7 @@ excerpt: "Python, SYN Scanner, Cyber Security"
 This project was completed as part of my university course SIT379 - Ethical Hacking. In which, I was tasked with creating a Python script that utilises the Scapy package to conduct a SYN scan on a range of ports.
 
 ## The Script
-As is referenced within the script, I utilised an existing SYN scanner by mic159 (2017) which can be found **[here]**(https://gist.github.com/mic159/c7133509af81dad409b79b8c4838f4bd).
+As is referenced within the script, I utilised an existing SYN scanner by mic159 (2017) which can be found [here](https://gist.github.com/mic159/c7133509af81dad409b79b8c4838f4bd).
 
 ```python
 '''
