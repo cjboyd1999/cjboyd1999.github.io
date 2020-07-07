@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /python/
-title: "Python Projects by Tags"
+permalink: /projects/
+title: "Projects by Category"
 author_profile: true
 ---
 

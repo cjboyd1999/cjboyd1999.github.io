@@ -2,7 +2,7 @@
 title: "Python Project: SYN Scanner"
 date: 2020-03-31
 tags: [Cyber Security]
-excerpt: "Python, SYN Scanner, Cyber Security"
+excerpt: "Simple Python SYN port scanner"
 ---
 
 ## Project Introduction
