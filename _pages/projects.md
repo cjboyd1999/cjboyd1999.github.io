@@ -6,7 +6,7 @@ author_profile: true
 taxonomy: Project
 ---
 
-{% include group-by-array collection=site.posts field="tags" %}
+<!-- {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
@@ -14,4 +14,4 @@ taxonomy: Project
   {% for post in posts %}
     {% include archive-single.html %}
   {% endfor %}
-{% endfor %}
+{% endfor %} -->
