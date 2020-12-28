@@ -1,9 +1,9 @@
 ---
 layout: tag
-permalink: /ctf/
-title: "CTF Writeups"
+permalink: /projects/
+title: "Projects by Category"
 author_profile: true
-taxonomy: CTF
+taxonomy: Project
 ---
 
 {% include group-by-array collection=site.posts field="tags" %}
