@@ -1,5 +1,5 @@
 ---
-title: "Python Project: Crisis Budget"
+title: "Hackathon: Crisis Budget"
 date: 2020-04-22
 tags: [Project]
 excerpt: "Hack the Crisis Australia contribution"
