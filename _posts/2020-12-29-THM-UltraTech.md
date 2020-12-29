@@ -82,7 +82,7 @@ Using the `/ping?ip={IP}` route that was found, I modified the IP address to att
 In `/home/www/api`, there is a database file called `utech.db.sqlite`.
 
 Within the databse, there are two users and two hashes:
-* r00t:r00t:f357a0c52799563c7c7b76c1e7543a32
+* r00t:f357a0c52799563c7c7b76c1e7543a32
 * admin:0d0ea5111e3c1def594c1684e3b9be84
 
 Using [Crackstation](https://crackstation.net/) the hashes were cracked resulting in the following two sets of credentials:
