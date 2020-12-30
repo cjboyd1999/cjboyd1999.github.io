@@ -28,6 +28,7 @@ PORT   STATE SERVICE VERSION
 |_http-title: Rick is sup4r cool
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
+There isn't much information from this Nmap scan, but there is a webpage to check out.
 
 ## IP/
 ### Initial Inspection
