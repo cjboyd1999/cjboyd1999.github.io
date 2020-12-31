@@ -49,7 +49,9 @@ It appears there isn't anything to see besides the webpage, so I'll check it out
 ### Initial Inspection
 The webpage starts with a mock Linux startup and then offers commands for the user to run:
 
+<p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/commands.png" alt="Commands">
+</p>
 
 Looking at all of them, they seem mostly for flavour with no actual purpose. The page source also contains nothing of interest, but does have a HTML comment saying "YOU ARE NOT ALONE".
 
@@ -63,7 +65,9 @@ I started up Dirbuster to find any hidden files or directories. It found quite a
 ## IP/robots.txt
 Here I see two files:
 
+<p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/robots.png" alt="robots.txt">
+</p>
 
 I used `Wget` to download the dictionary file and navigated to `{IP}/key-1-of-3.txt` to get the first key.
 
@@ -79,7 +83,9 @@ I decided to try brute forcing the credentials using the dictionary file obtaine
 2. Send the request to intruder.
 3. Go to the positions tab, set the attack type to "cluster bomb" and clear any default positons.
 4. Mark the `log` and `pwd` values as positions. By now, the request should look as follows:
+ <p align="center">
  <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/intruder.png" alt="BurpSuite intruder setup">
+ </p>
 5. Move to the payloads tab and load `fsocity.dic` in both payload sets 1 and 2.
 6. Start the attack and wait.
 
@@ -93,7 +99,9 @@ After Hydra found the password `ER28-0652`, I logged in to WordPress and was gre
 ### Enumeration
 I first navigated to the users panel to see what, if any, other users were available. Here, I saw the user `Elliot` that I was logged in as and another `mich05654`, which had less privileges.
 
+<p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/users.png" alt="WordPress users">
+</p>
 
 As this is a WordPress site, I decided to try and change the 404 error page to a PHP reverse shell through the following:
 1. Copy `/usr/share/webshells/php/php-reverse-shell.php` to the working directory.
@@ -102,11 +110,15 @@ As this is a WordPress site, I decided to try and change the 404 error page to a
 4. Open the `404 Template` file.
 5. Copy the reverse shell code and replace the `404 Template` (`404.php`) with it.
 6. Click the "Update File" button.
+ <p align="center">
  <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/404.png" alt="Edited 404 page">
+ </p>
 7. Start a listener using `sudo nc -lnvp 1337`.
 8. Navigate to `{IP}/wp-admin/404.php` and see the reverse shell worked!
 
+<p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/rshell.png" alt="Reverse shell success">
+</p>
 
 ## Reverse Shell
 ### Enumeration
@@ -120,7 +132,9 @@ I used [Crackstation](https://crackstation.net/) to crack the hash which returne
 
 Logging in to this user was as simple as `su -l robot`. 
 
+<p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/user-robot.png" alt="Switching to user `robot`">
+</p>
 
 ### Privilege Escalation
 Now that I am the user `robot`, I can view and get the second key with a simple `cat`.
@@ -149,11 +163,15 @@ As such, I searched for Nmap 3.81 PrivEsc's and found an article by [Penetration
 
 It's as simple as that!
 
+<p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/THM-MrRobotCTF/root.png" alt="Switching to root">
+</p>
 
 Now, `cd /root` and `cat key-3-of-3.txt` and that's the challenge complete!
 
 ## Summary
 All in all, this was a really fun and challenging room. Huge props to ben for such a well made challenge that also fits the theme of the TV show. My biggest takeaway from this room was definitely the interactive Nmap shell to get root privileges. I definitely recommend trying this room, even more so if you are a fan of Mr. Robot.
 
+<p align="center">
 <img src="https://tryhackme-badges.s3.amazonaws.com/cjboyd.png" alt="TryHackMe">
+</p>
