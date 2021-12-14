@@ -1,6 +1,6 @@
 ---
 title: "Career Timeline"
-permalink: /about/
+permalink: /eW91IHdlcmVudCBzdXBwb3NlZCB0byBjb21lIGhlcmU=/
 ---
 <style>
 * {
