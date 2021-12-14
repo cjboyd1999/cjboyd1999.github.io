@@ -13,11 +13,11 @@ excerpt: ""
 ## Questions
 Q1. user.txt
 
-A1. ``
+A1. `REDACTED`
 
 Q2. root.txt
 
-A2. ``
+A2. `REDACTED`
 
 ## Initial Nmap
 ```

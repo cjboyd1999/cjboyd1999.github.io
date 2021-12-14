@@ -14,6 +14,4 @@ I will only be sharing work that can be publicly disclosed. Please also note tha
 
 If you would like to learn a little more about me, head to the [About](https://cjboyd1999.github.io/about/) page. Otherwise, feel free to peruse my shared [Projects](https://cjboyd1999.github.io/projects/) or Capture The Flag (CTF) [Writeups](https://cjboyd1999.github.io/ctf/).
 
-<br>
-
 <blockquote>The information provided on this site is for educational purposes only and is provided in good faith. Use of the information provided for illegal activity is not endorsed under any circumstances. How you use this information is your responsibility.</blockquote>
