@@ -12,7 +12,7 @@ This is my personal portfolio which I use for sharing work I have completed or c
 
 I will only be sharing work that can be publicly disclosed. Please also note that any opinions expressed throughout my portfolio are solely my own and are not influenced by past, present or future employers.
 
-If you would like to learn a little more about me, head to the [ABOUT](https://cjboyd1999.github.io/about/) page. Otherwise, feel free to peruse my shared [PROJECTS](https://cjboyd1999.github.io/projects/) or Capture The Flag (CTF) [WRITEUPS](https://cjboyd1999.github.io/ctf/).
+If you would like to learn a little more about me, head to the [About](https://cjboyd1999.github.io/about/) page. Otherwise, feel free to peruse my shared [Projects](https://cjboyd1999.github.io/projects/) or Capture The Flag (CTF) [Writeups](https://cjboyd1999.github.io/ctf/).
 
 <br>
 

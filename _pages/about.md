@@ -12,6 +12,4 @@ Since starting in my current role, I have managed incidents ranging from simple 
 
 In addition to my career, I have also continued my education through personal projects and completion of TryHackMe rooms. Regarding the latter, my badge can be seen below:
 
-<span>
-<script src="https://tryhackme.com/badge/95930"></script>
-</span>
+<img src="https://tryhackme-badges.s3.amazonaws.com/cjboyd.png" alt="TryHackMe">
