@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "HOME"
+  - title: "Home"
     url:  /
-  - title: "WHOAMI"
+  - title: "About"
     url: /about/
-  - title: "PROJECTS"
+  - title: "Projects"
     url: /projects/
-  - title: "WRITEUPS"
+  - title: "Writeups"
     url: /ctf/
