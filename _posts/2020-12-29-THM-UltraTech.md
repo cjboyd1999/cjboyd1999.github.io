@@ -2,7 +2,7 @@
 title: "Try Hack Me: UltraTech"
 date: 2020-12-29
 tags: [CTF]
-excerpt: "Nmap, BurpSuite, SSH and Docker"
+excerpt: "Nmap, BurpSuite, SSH, Docker"
 ---
 
 ## CTF Introduction

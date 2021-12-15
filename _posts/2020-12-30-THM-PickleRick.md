@@ -2,7 +2,7 @@
 title: "Try Hack Me: Pickle Rick"
 date: 2020-12-30
 tags: [CTF]
-excerpt: "Nmap, Gobuster, Reverse shell"
+excerpt: "Nmap, Gobuster, Perl"
 ---
 
 ## CTF Introduction
